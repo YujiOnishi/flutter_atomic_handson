@@ -36,7 +36,7 @@ class SideInfoArchives extends StatelessWidget {
     if (archives.length == 0) {
       return SideInfoNoneArchive();
     } else {
-      List<Widget> archivesTitle;
+      List<Widget> archivesTitle = [];
       archives.forEach(
         (element) {
           Widget widget = SideInfoArchiveList(archive: element);
